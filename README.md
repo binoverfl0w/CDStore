@@ -25,7 +25,7 @@ CDs sold and the total amount of money made for a certain date or between a cert
 statistics about the CDs sold and bought are provided to them whenever requested from them daily, monthly
 and/or total. The manager keeps a list of suppliers and the CDs they offer.
 
-**Administrator** -> The administrator has the right to manage almost everything that the Cashier and Manager do.
+**Administrator** - The administrator has the right to manage almost everything that the Cashier and Manager do.
 Beside them he has the right to manage the employees (Cashier and Manager), by registering, modifying and
 deleting them including their access to the software. He may keep data about them such as: name, birthday, phone,
 email, salary, access level, and other information about them. The software provides him also data about
