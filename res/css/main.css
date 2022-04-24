@@ -1,0 +1,69 @@
+
+
+.container {
+    -fx-background-color: #272932;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+.h1 {
+    -fx-fill: #E7ECEF;
+    -fx-padding: 20;
+    -fx-text-alignment: center;
+    -fx-font-size: 35;
+    -fx-font-family: 'Moon';
+}
+
+.customButton:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #A54657;
+    -fx-background-color: #2B2D42;
+    -fx-border-width: 2;
+    -fx-border-radius: 1000;
+}
+
+.customButton:hover .customButtonLabel {
+    -fx-fill: #F4AC45;
+}
+
+.circleContainer {
+    -fx-fill: red;
+}
+
+.circleContainer:pressed {
+    -fx-fill: blue;
+}
+
+.customButton {
+    -fx-border-color: #272932;
+    -fx-border-width: 2;
+    -fx-padding: 40;
+    -fx-max-height:200;
+    -fx-alignment: center;
+}
+
+.customButtonIconContainer {
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
+
+.customButtonLabel {
+    -fx-font-family: 'Bariol Bold';
+    -fx-font-size: 20;
+    -fx-fill: #FFF;
+}
+
+.button {
+       -fx-background-color: #A54657;
+       -fx-text-fill: #E7ECEF;
+       -fx-padding: 10 20;
+       -fx-font-family: 'Moon';
+       -fx-font-size: 15;
+}
+
+
+.button:hover {
+       -fx-background-color: #E7ECEF;
+       -fx-cursor: hand;
+       -fx-text-fill: #F05D5E;
+}

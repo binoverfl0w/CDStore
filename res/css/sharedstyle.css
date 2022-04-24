@@ -1,0 +1,74 @@
+.root {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.textlabel {
+    -fx-font-family: 'Bariol Bold';
+    -fx-fill: #8D99AE;
+    -fx-font-size: 14;
+}
+
+.textfield{
+    -fx-font-size: 14;
+    -fx-background-color: #2B2D42;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+}
+
+.textfield:focused {
+    -fx-background-color: #272932;
+}
+
+.button {
+       -fx-background-color: #A54657;
+       -fx-text-fill: #E7ECEF;
+       -fx-padding: 5 20;
+       -fx-font-family: 'Moon';
+       -fx-font-size: 15;
+}
+
+
+.button:hover {
+       -fx-background-color: #E7ECEF;
+       -fx-cursor: hand;
+       -fx-text-fill: #F05D5E;
+}
+
+.combo-box .list-cell {
+    -fx-font-size:15;
+    -fx-text-fill: white;
+}
+.combo-box-popup .list-view{
+    -fx-background-color: #2B2D42;
+}
+
+.combo-box-popup .list-view .list-cell{
+    -fx-text-fill: white;
+    -fx-padding: 4 0 4 5;
+    -fx-background-color: #2B2D42;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover{
+    -fx-background-color: #A54657;
+    -fx-text-fill: #E7ECEF;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover{
+    -fx-background-color: #A54657;
+    -fx-text-fill: #E7ECEF;
+}
+
+.combo-box-base{
+    -fx-background-color: #2B2D42;
+    -fx-padding: 0;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

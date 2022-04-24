@@ -1,0 +1,50 @@
+.radio-button {
+    fx-padding:10px;
+}
+.radio-button .radio {
+    -fx-background-insets: 0;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-background-color: #272932;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 3px;
+}
+.radio-button .radio:selected {
+    -fx-background-insets: 0;
+    -fx-background-color: #272932;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: #272932;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: #272932;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: #272932;
+    -fx-background-image: null;
+}
+.radio-button:selected .dot {
+    -fx-background-insets: 0;
+    -fx-background-radius: 15px;
+    -fx-background-color: white;
+}
+.radio-button .dot {
+    -fx-background-insets: 0;
+    -fx-background-radius: 15px;
+    -fx-background-color: #272932;
+    -fx-padding: 5px;
+}
+.radio-button .text {
+    -fx-font-family: 'Bariol Bold';
+    -fx-fill: #8D99AE;
+    -fx-font-size: 14;
+}
+.container {
+    -fx-background-color: #272932;
+    -fx-padding: 25 40;
+}
+

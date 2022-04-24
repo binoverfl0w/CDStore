@@ -1,0 +1,60 @@
+.loginbar {
+    -fx-padding: 10px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+}
+
+.logo {
+    -fx-fit-height: 90;
+}
+
+.container {
+    -fx-background-color: #2B2D42;
+}
+
+.textfield{
+    -fx-font-size: 14;
+    -fx-background-color: #2B2D42;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+}
+
+.textfield:focused {
+    -fx-background-color: #272932;
+}
+
+.checkbox:hover {
+    -fx-cursor: hand;
+}
+
+.checkbox > .box {
+    -fx-background-color: #2B2D42;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.checkbox:selected > .box {
+    -fx-background-color: #272932;
+}
+
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    /* modify mark color */
+    -fx-background-color: white;
+}
+
+.button {
+       -fx-background-color: #A54657;
+       -fx-text-fill: #E7ECEF;
+       -fx-padding: 5 20;
+       -fx-font-family: 'Moon';
+       -fx-font-size: 15;
+}
+
+
+.button:hover {
+       -fx-background-color: #E7ECEF;
+       -fx-cursor: hand;
+       -fx-text-fill: #F05D5E;
+}

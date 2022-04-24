@@ -1,0 +1,38 @@
+.container {
+    -fx-background-color: #272932;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+.connected {
+    -fx-align: CENTER;
+    -fx-font-family: 'Moon';
+    -fx-fill: #8D99AE;
+    -fx-font-size: 18;
+}
+
+.textfield{
+    -fx-font-size: 14;
+    -fx-background-color: #272932;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+}
+
+.textfield:focused {
+    -fx-background-color: #2B2D42;
+}
+
+.button {
+       -fx-background-color: #A54657;
+       -fx-text-fill: #E7ECEF;
+       -fx-padding: 5 20;
+       -fx-font-family: 'Moon';
+       -fx-font-size: 15;
+}
+
+.button:hover {
+       -fx-background-color: #E7ECEF;
+       -fx-cursor: hand;
+       -fx-text-fill: #F05D5E;
+}
